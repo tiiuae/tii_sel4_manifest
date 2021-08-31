@@ -1,0 +1,9 @@
+<manifest>
+  <include name="default.xml"/>
+
+  <extend-project name="tii_sel4_build.git"             remote="tiiuae" revision="xaviernx"/>
+
+  <extend-project name="seL4.git"                       remote="tiiuae" revision="xaviernx"/>
+  <extend-project name="util_libs.git"                  remote="tiiuae" revision="xaviernx"/>
+  <extend-project name="seL4_tools.git"                 remote="tiiuae" revision="xaviernx"/>
+</manifest>

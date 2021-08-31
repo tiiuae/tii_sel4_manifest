@@ -7,6 +7,7 @@
     <linkfile src="docker" dest="docker"/>
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="scripts" dest="scripts"/>
+    <linkfile src="hardware" dest="hardware"/>
   </project>
 
   <extend-project name="camkes-tool.git"                remote="tiiuae" revision="rpi4"/>
