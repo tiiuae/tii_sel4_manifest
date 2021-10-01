@@ -10,10 +10,8 @@
   </project>
 
   <extend-project name="camkes-tool.git"                remote="tiiuae" revision="rpi4"/>
-  <extend-project name="capdl.git"                      remote="tiiuae" revision="rpi4"/>
   <extend-project name="global-components.git"          remote="tiiuae" revision="rpi4"/>
   <extend-project name="seL4.git"                       remote="tiiuae" revision="rpi4"/>
-  <extend-project name="seL4_libs.git"                  remote="tiiuae" revision="rpi4"/>
   <extend-project name="seL4_tools.git"                 remote="tiiuae" revision="rpi4"/>
   <extend-project name="util_libs.git"                  remote="tiiuae" revision="rpi4"/>
   <extend-project name="camkes-vm-examples.git"         remote="tiiuae" revision="rpi4"/>
