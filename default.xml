@@ -1,6 +1,7 @@
 <manifest>
   <include name="combined.xml"/>
   <remote name="tiiuae" fetch="ssh://git@github.com/tiiuae/"/>
+  <remote name="github" fetch="https://github.com/"/>
 
   <!-- TII build system -->
   <project remote="tiiuae" name="tii_sel4_build.git" path="tii_sel4_build" revision="tii/development">
@@ -8,6 +9,8 @@
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="scripts" dest="scripts"/>
   </project>
+
+  <project remote="github" name="torvalds/linux.git" path="linux" revision="v5.14"/>
 
   <extend-project name="camkes-tool.git"                remote="tiiuae" revision="rpi4"/>
   <extend-project name="global-components.git"          remote="tiiuae" revision="rpi4"/>
