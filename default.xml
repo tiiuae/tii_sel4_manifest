@@ -2,18 +2,17 @@
   <include name="combined.xml"/>
   <remote name="tiiuae" fetch="ssh://git@github.com/tiiuae/"/>
   <remote name="github" fetch="https://github.com/"/>
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git/"/>
 
   <!-- TII build system -->
   <project remote="tiiuae" name="tii_sel4_build.git" path="tii_sel4_build" revision="tii/development">
     <linkfile src="docker" dest="docker"/>
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="scripts" dest="scripts"/>
+    <linkfile src="yocto/setup.sh" dest="vm-images/setup.sh"/>
   </project>
 
-  <!-- linux tag "v5.14" -->
-  <project remote="github" name="torvalds/linux.git" path="linux" revision="7d2a07b769330c34b4deabeed939325c77a7ec2f"/>
-  <!-- buildroot tag "2021.08.1" -->
-  <project remote="github" name="buildroot/buildroot.git" path="buildroot" revision="516b837002e21db6730928e8cad60b75146e099b"/>
+  <project remote="yocto" name="poky" path="vm-images/poky" revision="refs/tags/honister-3.4"/>
 
   <extend-project name="camkes-tool.git"                remote="tiiuae" revision="rpi4"/>
   <extend-project name="global-components.git"          remote="tiiuae" revision="rpi4"/>
