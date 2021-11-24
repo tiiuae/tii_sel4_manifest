@@ -13,6 +13,7 @@
   </project>
 
   <project remote="yocto" name="poky" path="vm-images/poky" revision="refs/tags/honister-3.4"/>
+  <project remote="tiiuae" name="meta-sel4.git" path="vm-images/meta-sel4" revision="tii/development"/>
 
   <extend-project name="camkes-tool.git"                remote="tiiuae" revision="rpi4"/>
   <extend-project name="global-components.git"          remote="tiiuae" revision="rpi4"/>
