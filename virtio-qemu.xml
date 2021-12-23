@@ -1,0 +1,11 @@
+<manifest>
+  <include name="default.xml"/>
+
+  <extend-project name="seL4_projects_libs.git"         remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
+  <extend-project name="camkes-vm.git"                  remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
+  <extend-project name="camkes-vm-linux.git"            remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
+  <extend-project name="camkes-vm-examples.git"         remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
+  <extend-project name="tii_sel4_build.git"             remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
+
+  <extend-project name="meta-sel4.git"                  remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
+</manifest>
