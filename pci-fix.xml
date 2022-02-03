@@ -1,0 +1,6 @@
+<manifest>
+  <include name="master.xml"/>
+
+  <extend-project name="seL4_projects_libs.git"         remote="tiiuae" revision="upstream/pci_passthrough_fix"/>
+  <extend-project name="camkes-vm.git"                  remote="tiiuae" revision="upstream/pci_passthrough_fix"/>
+</manifest>
