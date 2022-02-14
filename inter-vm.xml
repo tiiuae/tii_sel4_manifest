@@ -3,8 +3,6 @@
 
   <extend-project name="seL4_projects_libs.git"         remote="tiiuae" revision="wip/evermatos"/>
   <extend-project name="camkes-vm.git"                  remote="tiiuae" revision="wip/evermatos"/>
-  <project name="tii-sel4-vm.git"                       remote="tiiuae" path="projects/vm-examples" revision="wip/vm_intervm">
-    <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
-  </project>
-
+  <extend-project name="tii-sel4-vm.git"                remote="tiiuae" revision="wip/vm_intervm"/>
+  
 </manifest>
