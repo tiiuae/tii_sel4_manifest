@@ -1,0 +1,10 @@
+<manifest>
+  <include name="default.xml"/>
+
+  <extend-project name="seL4.git"               remote="tiiuae" revision="wip/gpu-hdmi-pass-through"/>
+  <extend-project name="camkes-tool.git"        remote="tiiuae" revision="wip/gpu-hdmi-pass-through"/>
+  <extend-project name="global-components.git"  remote="tiiuae" revision="wip/gpu-hdmi-pass-through"/>
+  <extend-project name="util_libs.git"          remote="tiiuae" revision="wip/gpu-hdmi-pass-through"/>
+  <extend-project name="camkes-vm-examples.git" remote="tiiuae" revision="wip/gpu-hdmi-pass-through"/>
+  <extend-project name="meta-sel4.git"          remote="tiiuae" revision="wip/gpu-hdmi-pass-through"/>
+</manifest>
