@@ -3,6 +3,6 @@
 
   <extend-project name="seL4_projects_libs.git"         remote="tiiuae" revision="wip/evermatos"/>
   <extend-project name="camkes-vm.git"                  remote="tiiuae" revision="wip/evermatos"/>
-  <extend-project name="tii-sel4-vm.git"                path="projects/vm-examples"  remote="tiiuae" revision="wip/vm_intervm"/>
+  <project name="tii-sel4-vm.git"                       path="projects/vm-examples" remote="tiiuae" revision="wip/vm_intervm"/>
 
 </manifest>
