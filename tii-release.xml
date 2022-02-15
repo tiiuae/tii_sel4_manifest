@@ -1,0 +1,7 @@
+<manifest>
+  <include name="default.xml"/>
+
+  <extend-project name="util-libs.git"                  remote="tiiuae" revision="tiiuae/wip/jonatsu_bcm2711_uart_updates"/>
+  <extend-project name="global-components.git"          remote="tiiuae" revision="tiiuae/wip/jonatsu_bcm2711_timers_gpio_fixes"/>
+  <extend-project name="tii_sel4_build.git"             remote="tiiuae" revision="tiiuae/wip/release_setup"/>
+</manifest>
