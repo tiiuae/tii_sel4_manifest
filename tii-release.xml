@@ -10,7 +10,7 @@
   <project name="buildroot.git"                remote="buildroot" path="projects/buildroot" revision="25bc11d3b3c7829993bf191671d7c53e0f3b4af0"/>
 
   <!-- U-Boot tag "v2022.01" -->
-  <project name="uboot.git"                    remote="uboot" path="projects/uboot" revision="d637294e264adfeb29f390dfc393106fd4d41b17" />
+  <project name="u-boot.git"                   remote="uboot" path="projects/uboot" revision="d637294e264adfeb29f390dfc393106fd4d41b17" />
 
   <extend-project name="util_libs.git"         remote="tiiuae" revision="tii/wip/bcm2711_platsupport_updates"/>
   <extend-project name="global-components.git" remote="tiiuae" revision="tii/wip/bcm2711_timers_gpio_fix"/>
