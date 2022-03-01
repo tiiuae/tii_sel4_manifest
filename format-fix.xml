@@ -1,0 +1,7 @@
+<manifest>
+  <include name="master.xml"/>
+
+  <extend-project name="seL4_projects_libs.git"         remote="tiiuae" revision="upstream/fix-format"/>
+  <extend-project name="camkes-vm.git"                  remote="tiiuae" revision="upstream/fix-format"/>
+  <extend-project name="seL4_libs.git"                  remote="tiiuae" revision="upstream/fix-format"/>
+</manifest>
