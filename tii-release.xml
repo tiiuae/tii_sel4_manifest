@@ -15,5 +15,5 @@
   <extend-project name="util_libs.git"         remote="tiiuae" revision="wip/gpu-hdmi-pass-through"/>
   <extend-project name="global-components.git" remote="tiiuae" revision="wip/gpu-hdmi-pass-through"/>
   <extend-project name="tii_sel4_build.git"    remote="tiiuae" revision="tii/release"/>
-  <extend-project name="tii-sel4-vm.git"       remote="tiiuae" revision="tii/release"/>
+  <extend-project name="tii-sel4-vm"           remote="tiiuae" revision="tii/release"/>
 </manifest>
