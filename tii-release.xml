@@ -1,13 +1,7 @@
 <manifest>
   <include name="default.xml"/>
-  <remote name="buildroot" fetch="https://git.buildroot.net/"/>
-  <remote name="uboot" fetch="https://source.denx.de/u-boot/"/>
   <!-- linux tag "v5.16" -->
   <project name="torvalds/linux.git"           remote="github" path="projects/torvalds/linux" revision="df0cc57e057f18e44dac8e6c18aba47ab53202f9"/>
-  <!-- buildroot tag "2021.11.1" -->
-  <project name="buildroot.git"                remote="buildroot" path="projects/buildroot" revision="25bc11d3b3c7829993bf191671d7c53e0f3b4af0"/>
-  <!-- U-Boot tag "v2022.01" -->
-  <project name="u-boot.git"                   remote="uboot" path="projects/uboot" revision="d637294e264adfeb29f390dfc393106fd4d41b17" />
   <extend-project name="tii_sel4_build.git"    remote="tiiuae" revision="df2dcbf36ac12d9ca1d104c29fdffbebf0e12b6c" upstream="tii/release" dest-branch="tii/release"/>
   <extend-project name="tii-sel4-vm"           remote="tiiuae" revision="wip/q1_demo"/>
 </manifest>

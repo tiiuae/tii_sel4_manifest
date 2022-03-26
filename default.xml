@@ -2,17 +2,12 @@
   <include name="combined.xml"/>
   <remote name="tiiuae" fetch="ssh://git@github.com/tiiuae/"/>
   <remote name="github" fetch="https://github.com/"/>
-  <remote name="yocto" fetch="https://git.yoctoproject.org/git/"/>
   <!-- TII build system -->
   <project remote="tiiuae" name="tii_sel4_build.git" path="tii_sel4_build" revision="tii/development">
     <linkfile src="docker" dest="docker"/>
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="scripts" dest="scripts"/>
-    <linkfile src="yocto/setup.sh" dest="vm-images/setup.sh"/>
   </project>
-  <project remote="yocto" name="poky" path="vm-images/poky" revision="refs/tags/honister-3.4"/>
-  <project remote="tiiuae" name="meta-sel4.git" path="vm-images/meta-sel4" revision="tii/development"/>
-  <project remote="yocto" name="meta-raspberrypi" path="vm-images/meta-raspberrypi" revision="honister"/>
   <project remote="tiiuae" name="tii-sel4-vm" path="projects/tii-sel4-vm" revision="master"/>
   <extend-project name="camkes-tool.git"                remote="tiiuae" revision="rpi4"/>
   <extend-project name="global-components.git"          remote="tiiuae" revision="wip/gpu-hdmi-pass-through"/>
