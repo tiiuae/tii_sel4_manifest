@@ -1,7 +1,6 @@
 <manifest>
   <include name="default.xml"/>
-  <!-- linux tag "v5.16" -->
-  <project name="torvalds/linux.git"           remote="github" path="projects/torvalds/linux" revision="df0cc57e057f18e44dac8e6c18aba47ab53202f9"/>
-  <extend-project name="tii_sel4_build.git"    remote="tiiuae" revision="df2dcbf36ac12d9ca1d104c29fdffbebf0e12b6c" upstream="tii/release" dest-branch="tii/release"/>
+  
+  <extend-project name="tii_sel4_build.git"    remote="tiiuae" revision="wip/q1_demo"/>
   <extend-project name="tii-sel4-vm"           remote="tiiuae" revision="wip/q1_demo"/>
 </manifest>
