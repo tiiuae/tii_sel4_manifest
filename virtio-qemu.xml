@@ -8,4 +8,5 @@
   <extend-project name="meta-sel4.git"                  remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
 
   <extend-project name="tii-sel4-vm"                    remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
+  <extend-project name="seL4.git"                       remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
 </manifest>
