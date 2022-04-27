@@ -10,9 +10,9 @@
   <remote name="polly" fetch="https://github.com/ruslo"/>
   <remote name="seL4" fetch="https://github.com/seL4"/>
   <remote name="zeromq" fetch="https://github.com/zeromq"/>
-  
+
   <default remote="seL4" revision="master"/>
-  
+
   <!-- imported from sel4-test manifest -->
   <remote name="nanopb" fetch="https://github.com/nanopb"/>
   <remote name="opensbi" fetch="https://github.com/riscv"/>
@@ -27,9 +27,7 @@
   <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="c6dec85b32bbf082876280e4fb1fc42acbdf5b26" upstream="master" dest-branch="master"/>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="69af5316aa39d43d38070984338b334083d2065d" upstream="master" dest-branch="master"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="3eafe89fffc3decb385c1ec74c2d744a09b6327e" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="d8b4b5b983850c7ba953e815cbc83dd6f8b04f80" upstream="master" dest-branch="master">
-    <linkfile src="README.md" dest="README.md"/>
-  </project>
+  <project name="camkes-vm.git" path="projects/vm" revision="d8b4b5b983850c7ba953e815cbc83dd6f8b04f80" upstream="master" dest-branch="master"/>
   <project name="capdl.git" path="projects/capdl" revision="234063c8e46b78ce70d1057fc9a3a2165850f791" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="df8b9e42ef4a7b288f2d47859dbae66db1ff1cb3" upstream="master" dest-branch="master"/>
   <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="80426585fa01fc432c55541381667a53671be07c" upstream="refs/tags/v4.2.5" dest-branch="refs/tags/v4.2.5"/>
