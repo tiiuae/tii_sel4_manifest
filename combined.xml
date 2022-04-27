@@ -27,9 +27,7 @@
   <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="c5b54ace7a456be493e072111817f65d4ec625b1" upstream="master" dest-branch="master"/>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="ede9814678d87adfc8d175c743283ea7844ae4ad" upstream="master" dest-branch="master"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="a9d79657b3f01fabfa2692f815be7276d97c9b85" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="0174554598846ac73257bf006250f47a8f73d80c" upstream="master" dest-branch="master">
-    <linkfile src="README.md" dest="README.md"/>
-  </project>
+  <project name="camkes-vm.git" path="projects/vm" revision="0174554598846ac73257bf006250f47a8f73d80c" upstream="master" dest-branch="master"/>
   <project name="capdl.git" path="projects/capdl" revision="5a4d7c85ad3f0201430288475c08ac6ff0e14f07" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="02133497ed126910ec0f4ddb98b997e481d91ffa" upstream="master" dest-branch="master"/>
   <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5" dest-branch="refs/tags/v4.2.5"/>
