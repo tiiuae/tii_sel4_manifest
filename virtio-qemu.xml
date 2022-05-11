@@ -3,9 +3,13 @@
 
   <remote name="oe" fetch="https://github.com/openembedded/"/>
 
+  <extend-project name="camkes-tool.git"                remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
+
   <extend-project name="seL4_projects_libs.git"         remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
   <extend-project name="camkes-vm.git"                  remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
   <extend-project name="camkes-vm-linux.git"            remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
+
+  <extend-project name="camkes-vm.git"                  remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
 
   <extend-project name="meta-sel4.git"                  remote="tiiuae" revision="wip/hlyytine-virtio-blk"/>
 
