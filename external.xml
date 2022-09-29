@@ -29,4 +29,5 @@
   <extend-project name="camkes-vm.git"                  remote="tiiuae" revision="rpi4"/>
   <extend-project name="camkes-vm-images.git"           remote="tiiuae" revision="rpi4"/>
   <extend-project name="seL4_projects_libs.git"         remote="tiiuae" revision="rpi4"/>
+  <extend-project name="capdl.git"                      remote="tiiuae" revision="rpi4"/>
 </manifest>
