@@ -4,7 +4,7 @@
   <remote name="github" fetch="https://github.com/"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git/"/>
 
-  <project remote="tiiuae" name="meta-sel4.git" path="vm-images/meta-sel4" revision="tii/development"/>
+  <project remote="tiiuae" name="meta-sel4.git" path="vm-images/meta-sel4" revision="kirkstone"/>
 
   <project remote="tiiuae" name="tii-sel4-vm" path="projects/tii-sel4-vm" revision="master"/>
 </manifest>
