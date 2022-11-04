@@ -6,7 +6,7 @@
   <remote name="oe" fetch="https://github.com/openembedded/"/>
 
   <!-- TII build system -->
-  <project remote="tiiuae" name="tii_sel4_build.git" path="tii_sel4_build" revision="tii/development">
+  <project remote="tiiuae" name="tii_sel4_build.git" path="tii_sel4_build" revision="tii/wip/podman-support-quality-fixes">
     <linkfile src="docker" dest="docker"/>
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="scripts" dest="scripts"/>
