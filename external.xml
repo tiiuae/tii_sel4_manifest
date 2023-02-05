@@ -2,11 +2,12 @@
   <include name="combined.xml"/>
   <remote name="tiiuae" fetch="ssh://git@github.com/tiiuae/"/>
   <remote name="github" fetch="https://github.com/"/>
+  <remote name="ivanv" fetch="ssh://git@github.com/Ivan-Velickovic/"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git/"/>
   <remote name="oe" fetch="https://github.com/openembedded/"/>
 
   <!-- TII build system -->
-  <project remote="tiiuae" name="tii_sel4_build.git" path="tii_sel4_build" revision="tii/development">
+  <project remote="tiiuae" name="tii_sel4_build.git" path="tii_sel4_build" revision="wip/hlyytine-sel4cp">
     <linkfile src="docker" dest="docker"/>
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="scripts" dest="scripts"/>
@@ -29,4 +30,10 @@
   <extend-project name="camkes-vm-images.git"           remote="tiiuae" revision="rpi4"/>
   <extend-project name="seL4_projects_libs.git"         remote="tiiuae" revision="rpi4"/>
   <extend-project name="capdl.git"                      remote="tiiuae" revision="rpi4"/>
+
+  <project remote="ivanv" name="sel4.git"       path="sel4cp/sel4"              revision="sel4cp-dev"/>
+  <project remote="tiiuae" name="sel4cp.git"     path="sel4cp/sel4cp"            revision="rpi4b_support">
+    <linkfile src="requirements.txt" dest="tii_sel4_build/docker/sel4cp-python-requirements.txt"/>
+  </project>
+  <project remote="ivanv" name="sel4cp_vmm.git" path="sel4cp/sel4cp_vmm"        revision="main"/>
 </manifest>
