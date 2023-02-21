@@ -14,10 +14,10 @@
     <linkfile src="README.md" dest="README.md"/>
   </project>
 
-  <project remote="yocto" name="poky" path="vm-images/poky" revision="refs/tags/honister-3.4"/>
+  <project remote="yocto" name="poky" path="vm-images/poky" revision="refs/tags/langdale-4.1.2"/>
 
-  <project remote="yocto" name="meta-raspberrypi" path="vm-images/meta-raspberrypi" revision="honister"/>
-  <project remote="oe" name="meta-openembedded" path="vm-images/meta-openembedded" revision="honister"/>
+  <project remote="yocto" name="meta-raspberrypi" path="vm-images/meta-raspberrypi" revision="langdale"/>
+  <project remote="oe" name="meta-openembedded" path="vm-images/meta-openembedded" revision="langdale"/>
 
   <extend-project name="global-components.git"          remote="tiiuae" revision="rpi4"/>
   <extend-project name="seL4.git"                       remote="tiiuae" revision="rpi4"/>
