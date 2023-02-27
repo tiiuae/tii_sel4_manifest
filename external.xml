@@ -7,6 +7,7 @@
 
   <!-- TII build system -->
   <project remote="tiiuae" name="tii_sel4_build.git" path="tii_sel4_build" revision="tii/development">
+    <linkfile src="configs" dest="configs"/>
     <linkfile src="docker" dest="docker"/>
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="scripts" dest="scripts"/>
