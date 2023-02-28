@@ -6,7 +6,7 @@
   <remote name="oe" fetch="https://github.com/openembedded/"/>
 
   <!-- TII build system -->
-  <project remote="tiiuae" name="tii_sel4_build.git" path="tii_sel4_build" revision="tii/development">
+  <project remote="tiiuae" name="tii_sel4_build.git" path="tii_sel4_build" revision="wip/hlyytine-swiotlb">
     <linkfile src="configs" dest="configs"/>
     <linkfile src="docker" dest="docker"/>
     <linkfile src="Makefile" dest="Makefile"/>
@@ -26,8 +26,8 @@
   <extend-project name="util_libs.git"                  remote="tiiuae" revision="rpi4"/>
   <extend-project name="camkes-vm-examples.git"         remote="tiiuae" revision="rpi4"/>
   <extend-project name="camkes-vm-linux.git"            remote="tiiuae" revision="rpi4"/>
-  <extend-project name="camkes-vm.git"                  remote="tiiuae" revision="rpi4"/>
-  <extend-project name="seL4_projects_libs.git"         remote="tiiuae" revision="rpi4"/>
+  <extend-project name="camkes-vm.git"                  remote="tiiuae" revision="wip/hlyytine-swiotlb"/>
+  <extend-project name="seL4_projects_libs.git"         remote="tiiuae" revision="wip/hlyytine-swiotlb"/>
   <extend-project name="capdl.git"                      remote="tiiuae" revision="rpi4"/>
 
   <remove-project name="camkes-vm-images.git"/>
