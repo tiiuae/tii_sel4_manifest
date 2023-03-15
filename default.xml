@@ -7,4 +7,6 @@
   <project remote="tiiuae" name="meta-sel4.git" path="vm-images/meta-sel4" revision="tii/development"/>
 
   <project remote="tiiuae" name="tii-sel4-vm" path="projects/tii-sel4-vm" revision="master"/>
+
+  <project remote="tiiuae" name="tii_sel4_tests" path="tests" revision="main"/>
 </manifest>
