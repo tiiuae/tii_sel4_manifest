@@ -1,0 +1,7 @@
+<manifest>
+  <include name="default.xml"/>
+
+  <extend-project name="meta-sel4.git" remote="tiiuae" revision="test/improve_large_page"/>
+  <extend-project name="tii-sel4-vm" remote="tiiuae" revision="improve_large_page"/>
+  <extend-project name="seL4_projects_libs.git" remote="tiiuae" revision="improve_large_page"/>
+</manifest>
