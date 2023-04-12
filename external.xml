@@ -12,6 +12,7 @@
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="scripts" dest="scripts"/>
     <linkfile src="yocto/setup.sh" dest="vm-images/setup.sh"/>
+    <linkfile src="yocto/setup-mirror-update.sh" dest="vm-images/setup-mirror-update.sh"/>
     <linkfile src="README.md" dest="README.md"/>
   </project>
 
