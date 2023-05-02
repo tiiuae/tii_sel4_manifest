@@ -1,0 +1,7 @@
+<manifest>
+  <include name="default.xml"/>
+
+  <extend-project name="tii_sel4_build.git" revision="kvm_comparison"/>
+  <extend-project name="meta-sel4.git"      revision="test-kvm_comparison"/>
+  <extend-project name="tii-sel4-vm"        revision="kvm_comparison"/>
+</manifest>
