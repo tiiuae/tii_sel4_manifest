@@ -15,31 +15,31 @@
   <remote name="nanopb" fetch="https://github.com/nanopb"/>
   <remote name="opensbi" fetch="https://github.com/riscv"/>
 
-  <project name="nanopb" path="tools/nanopb" remote="nanopb" revision="26b784f5da4b9e05742e72adc29b0e21e0d87455" upstream="master" dest-branch="refs/tags/0.4.3"/>
-  <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="791953030836d39687688a8e7f1a3e708892cfa1"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="e6f4f520b3dd56d9461ba9829abf020d05e7357e" upstream="master" dest-branch="master"/>
+  <project name="nanopb" path="tools/nanopb" remote="nanopb" revision="d7f388ff6317e207d7ddcd224b45a86bb7feb7a7" upstream="master" dest-branch="refs/tags/0.4.3"/>
+  <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="eb736a5118b8d271bd649d713b6a058882c8fb7b"/>
+  <project name="sel4test.git" path="projects/sel4test" revision="b7bce1f50d87db7c5849510adae6b58d00e29b59" upstream="master" dest-branch="master"/>
 
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="f522974283aa71af623fec8b37947e7625e154fc" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="fd099f3d395897d3ba0da7822f2ee9c2458eb383" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="camkes_README.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="9f0a5344a6e24ea3ec9c2e0c99aec5938ef2b244" upstream="master" dest-branch="master"/>
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="7cfa149565631ffd4902f256037ec5ebcdcf294d" upstream="master" dest-branch="master"/>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="69af5316aa39d43d38070984338b334083d2065d" upstream="master" dest-branch="master"/>
   <project name="camkes-vm-linux.git" path="projects/vm-linux" revision="46fb8b6e450eebf0f78adcd45d73fdba48c960bf" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm.git" path="projects/vm" revision="a759a18f3bdd255e7f28b17d39f0d06238f3c048" upstream="master" dest-branch="master"/>
-  <project name="capdl.git" path="projects/capdl" revision="3fa3a1b5b57c67175d109e2fe15a42aa641ee601" upstream="master" dest-branch="master"/>
-  <project name="global-components.git" path="projects/global-components" revision="908195f62996eb6211a3c053a15634dd5b1f53ba" upstream="master" dest-branch="master"/>
+  <project name="camkes-vm.git" path="projects/vm" revision="280208ddd1c698d3208fd471ca32770dfc75a043" upstream="master" dest-branch="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="364ad6aab91fbc3140d451b395576817228bfbcb" upstream="master" dest-branch="master"/>
+  <project name="global-components.git" path="projects/global-components" revision="0a53b39805f44870b65bd33dfe7535a8856de281" upstream="master" dest-branch="master"/>
   <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="80426585fa01fc432c55541381667a53671be07c" upstream="refs/tags/v4.2.5" dest-branch="refs/tags/v4.2.5"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="fa6e3dd1be70bf9abfba36bf571ea6b476c9103b" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" revision="3d6b939e8f05cb1d2a1a8c8166609bf2e652e975" upstream="sel4" dest-branch="sel4"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
   <project name="polly" path="tools/polly" remote="polly" revision="ef7e79c2c297d456f2742fd0b976f555d058d4e0" upstream="master" dest-branch="master"/>
-  <project name="projects_libs.git" path="projects/projects_libs" revision="524777b794762854214e6eff91bcafba261e0b42" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="f11b2a58ef00b5636ccb4c9e680d6450e961fdbf" upstream="master" dest-branch="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="2ca525429e7b4f5abbc1fc694d3aeaff5eb6e7db" upstream="master" dest-branch="master"/>
-  <project name="seL4_projects_libs.git" path="projects/sel4_projects_libs" revision="e13b3fa2fc74190a578f27642ded7e5ab103960e" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="b2e54f0c478b7393b7c28a6f385575af1fab4b7b" upstream="master" dest-branch="master">
+  <project name="projects_libs.git" path="projects/projects_libs" revision="1e7f0b6ec0405b3288c606fd7e782660ace4aa07" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="49f4ddfc8c20249b7a114a4cc3baa42f5f9eaa6c" upstream="master" dest-branch="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="24921e85cc0b7ce1028a78dce638c46d8ecfc613" upstream="master" dest-branch="master"/>
+  <project name="seL4_projects_libs.git" path="projects/sel4_projects_libs" revision="82e0e3f85e7f8b403388e7d7a894ab583b6c8a8a" upstream="master" dest-branch="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="2c61d6a0b561b8d4a6904494df5118a2545bf143" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
   <project name="sel4runtime.git" path="projects/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="096b2b3bf6e2222fd4831f00dc88c8d86fb267da" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="ec4dec5807ae34c2fa325849699dd0f0ac5e064c" upstream="master" dest-branch="master"/>
 </manifest>
