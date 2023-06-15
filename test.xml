@@ -1,0 +1,11 @@
+<manifest>
+  <include name="default.xml"/>
+
+  <extend-project name="seL4.git" remote="tiiuae" revision="rpi4-next"/>
+  <extend-project name="seL4_projects_libs.git" remote="tiiuae" revision="rpi4-next"/>
+  <extend-project name="seL4_tools.git" remote="tiiuae" revision="rpi4-next"/>
+  <extend-project name="camkes-vm-examples.git" remote="tiiuae" revision="rpi4-next"/>
+  <extend-project name="camkes-vm.git" remote="tiiuae" revision="rpi4-next"/>
+  <extend-project name="tii-sel4-vm" remote="tiiuae" revision="rpi4-next"/>
+
+</manifest>
